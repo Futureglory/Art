@@ -122,3 +122,45 @@ justify-content: center;
   align-items: center;
   padding: 20px;
 }
+.explore-but2{
+  background-color:black;
+  color:white;
+  border-radius:8px;
+  height:30px;
+  width: 70px;
+}
+.reviews {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.review-count {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stars {
+  width: 50px; /* Adjust as needed */
+  height: 30px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  /* font-size: 1.5em; */
+}
+
+/* .copies-sold, .monthly-visitors {
+  text-align: center;
+} */
+
+.copies-sold span, .monthly-visitors span {
+  font-weight:bold;
+  font-size:larger;
+  display:flex;
+}

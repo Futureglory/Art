@@ -37,6 +37,14 @@ const Banner = () => {
               </div>
             </div>
           </div>
+          <div className='line'></div>
+          <div className='social'>
+            <img src='/icons/facebook.svg' alt='facebook' />
+            <img src='/icons/instagram.svg' alt='instagram' />
+            <img src='/icons/twitter.svg' alt='twitter' />
+            <img src='/icons/linkedin.svg' alt='linkedin' />
+            <img src='/icons/youtube.svg' alt='youtube' />
+            </div>
         </div>
 
         <div className='bannerImage'>

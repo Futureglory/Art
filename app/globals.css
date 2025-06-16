@@ -121,6 +121,8 @@ margin-left: 2%;
 justify-content: center;
   align-items: center;
   padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 .explore-but2{
   background-color:black;
@@ -150,9 +152,7 @@ justify-content: center;
 
 .statistics {
   display: flex;
-  /* justify-content: center; */
   gap: 20px;
-  /* font-size: 1.5em; */
 }
 
 /* .copies-sold, .monthly-visitors {
@@ -163,4 +163,22 @@ justify-content: center;
   font-weight:bold;
   font-size:larger;
   display:flex;
+}
+.line{
+  width:500px;
+  height:1px;
+  background-color: grey;
+  /* margin: 20px 0;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;  */
+}
+.social img{
+  width:30px;
+  height:30px;
+  margin-right: 10px;
+}
+.social{
+  margin-top:10px;
 }

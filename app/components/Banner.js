@@ -19,11 +19,11 @@ const Banner = () => {
           <div className='reviews'>
             <div className='review-count'>
               <h2>500+ Reviews</h2>
-              <img src='/icons/star.svg' alt='5-star rating' className='stars'/>
-                       <img src='/icons/star.svg' alt='5-star rating' className='stars'/>
-              <img src='/icons/star.svg' alt='5-star rating' className='stars'/>
-              <img src='/icons/star.svg' alt='5-star rating' className='stars'/>
-              <img src='/icons/star.svg' alt='5-star rating' className='stars'/>
+              <img src='/icons/star.svg' alt='5-star rating' className='stars' />
+              <img src='/icons/star.svg' alt='5-star rating' className='stars' />
+              <img src='/icons/star.svg' alt='5-star rating' className='stars' />
+              <img src='/icons/star.svg' alt='5-star rating' className='stars' />
+              <img src='/icons/star.svg' alt='5-star rating' className='stars' />
 
             </div>
             <div className='statistics'>
@@ -44,13 +44,14 @@ const Banner = () => {
             <img src='/icons/twitter.svg' alt='twitter' />
             <img src='/icons/linkedin.svg' alt='linkedin' />
             <img src='/icons/youtube.svg' alt='youtube' />
-            </div>
+          </div>
         </div>
 
         <div className='bannerImage'>
           <img src='/icons/art.png' alt='art' />
         </div>
       </div >
+    
     </>
   )
 }

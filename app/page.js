@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
-import Home from './components/Home'
+import Banner from './components/Banner'
 const page = () => {
   return (
     <div className='home-container'>
-      <Home />
+      <Banner />
 
     </div>
   )
